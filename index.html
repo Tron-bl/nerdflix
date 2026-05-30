@@ -21,12 +21,13 @@
             height: 100px;
             background-color: rgb(0, 0, 0);
             color: black;
+
         }
 
         .hero {
             height: 600px;
             background-color: rgba(0, 0, 0, 0.514);
-            background-image: url(imagenes/imagen.jpeg);
+            background-image: url("imagenes/imagen.jpeg");
             background-size: 100%;
             background-repeat: no-repeat;
 
@@ -43,10 +44,10 @@
         }
     </style>
 
+
     </head>
 
     <body>
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 menu">
@@ -54,83 +55,128 @@
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="#">
-                                <img src="imagenes/ChatGPT Image 27 may 2026, 21_33_18.png" alt="" width="200PX">
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false" style="color:wheat; ">
-                                        <svg viewBox="0 0 16 16" width="16" height="16" data-icon="CaretDownSmall"
-                                            data-icon-id=":R9pbaml6lalalalb96:" aria-hidden="true"
-                                            xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-                                            <path fill="currentColor" fill-rule="evenodd"
-                                                d="M11.6 6.5c.15 0 .22.18.12.28l-3.48 3.48a.33.33 0 0 1-.48 0L4.28 6.78a.17.17 0 0 1 .12-.28z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>Español
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Español</a></li>
-                                        <li><a class="dropdown-item" href="#">English</a></li>
-
-                                </li>
+                                <img src="imagenes/ChatGPT Image 27 may 2026, 21_33_18.png" alt="" width="200px">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                                            <svg viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall"
+                                                data-icon-id=":R8pbaml6lalalalb96:" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+                                                <path fill="currentColor" fill-rule="evenodd"
+                                                    d="M10.77 5.33 10.5 6 9.34 8.94l-.57 1.44L7.33 14h1.78l.73-1.97h3.58l.74 1.97H16l-3.43-8.67zm-.15 4.6-.24.63h2.51l-1.26-3.35zm-1.1-5.09.1-.19h-3.2V2h-1.5v2.65H.55V6h3.77A11 11 0 0 1 0 10.43c.33.28.81.8 1.05 1.16 1.5-.91 2.85-2.36 3.88-4.02v5.1h1.49V7.52q.6.95 1.33 1.8l.57-1.43a12 12 0 0 1-1.34-1.9h2.09z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg> Español
+                                        </a>
+                                        <ul class="dropdown-menu bg-black">
+                                            <li><a class="dropdown-item bg-black text-white" href="#">Español</a></li>
+                                            <li><a class="dropdown-item bg-black text-white" href="#">English</a></li>
+                                        </ul>
+                                    </li>
+                                    <a class="nav-link active btn btn-danger text-white" aria-current="page"
+                                        href="#">Iniciar sesión</a>
+                                </div>
+                            </div>
                         </div>
-                        <button type="button" class="btn btn-outline-danger">Inicio sesión</button>
-                        </ul>
+                    </nav>
                 </div>
-            </div>
-            </nav>
-        </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 hero">
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4" style="margin-top: 300px;">
-                    <h1 class="text-center text-white">NERDFLIX A TAN SOLO 100</h1>
-                </div>
-                <div class="col-4"></div>
-
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 cards">
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="imagenes/nerdflix_1.png"  class="card"  tyle="width: 18rem;" >
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 hero">
+                    <div class="row">
+                        <div class="col-4"></div>
+                        <div class="col-4" style="margin-top: 400px;">
+                            <h1 class="text-center text-white" style="text-shadow: -2px -2px 8px #000000;">NERDFLIX A
+                                TAN SOLO 100 PESOS</h1>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="imagenes/nerdflix_2.png" class="card"  tyle="width: 18rem;" >
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagenes/nerdflix_3.png" class="card"  tyle="width: 18rem;" >
-                            
-                        </div>
-                           <div class="carousel-item active" data-bs-interval="10000">
-                           <img src="imagenes/nerdflix_1.png"  class="card"  tyle="width: 18rem;" >
-                        </div>
-                        
-
+                        <div class="col-4"></div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
+                <!--ESTA ES UNA COLUMNA VACIA-->
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
+                <!--ESTA ES UNA COLUMNA VACIA-->
+                <!--ACA VA MI CAROUSEL DE BOOTSTRAP-->
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8 cards">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!--ACA VA MIs peliculas-->
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_4.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <!--ACA VA MIs peliculas-->
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_5.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_6.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_7.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_8.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <!--ACA VA MIs peliculas-->
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_9.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_10.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="imagenes/nerdflix_2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!--ESTA ES UNA COLUMNA VACIA-->
+                    <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
+                    <!--ESTA ES UNA COLUMNA VACIA-->
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 footer"></div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 footer"></div>
         </div>
-        </div>
-        <h1>
-        </h1>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
     </body>
-
-</html>
-</body>
 
 </html>
